@@ -1,0 +1,75 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+#content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;  
+}
+#content h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#content table {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 1.5em;
+}
+#content table th {
+  background: black;
+  color: white;
+}
+#content table tr:nth-child(even){
+  background: #ececec;
+}
+#content form {
+  width: 50%;
+  margin: 0 auto;
+}
+#content form label {
+  font-size: 1.5em;
+  display: block;
+}
+#content form input {
+  font-size: 1.5em;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#content form input[type="submit"]{
+  font-size: 1.5em;
+  width: 30%;
+  display:block;
+  margin: 20px auto;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3.5em;
+  line-height: 3.5em;
+  background: black;
+  color: white;
+  text-align: center;
+}
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
